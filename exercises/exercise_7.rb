@@ -10,3 +10,5 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+name = gets.chomp
+store5 = Store.create(name: name, annual_revenue: 300000, mens_apparel: true, womens_apparel: true)
